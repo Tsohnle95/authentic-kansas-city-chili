@@ -306,17 +306,29 @@ main section h2 {
 
 .recipe-prep>div>.flex-container {
     gap: 3rem;
-    letter-spacing: .1875rem;
+   
     flex-wrap: wrap;
+}
+
+.recipe-prep .share {
+     letter-spacing: .1875rem;
 }
 
 .recipe-prep>div span {
     letter-spacing: normal;
 }
 
+.recipe-prep-para {
+    margin-bottom: 2rem;
+}
+
 .recipe-prep>div>div>.flex-container {
     gap: 1rem;
     align-items: flex-start;
+}
+
+.share-container {
+    margin-top: 2rem;
 }
 
 .recipe-prep {
@@ -574,14 +586,14 @@ footer .line-design-maxwidth {
 .scroll-to-top {
     position: fixed;
     bottom: 2rem;
-    right: 1rem;
+    right: 0;
     /* visibility: hidden;
 opacity: 0; */
     display: none;
 }
 
 .scroll-to-top svg {
-    width: 3rem;
+    width: 2.5rem;
 }
 
 .visible {
@@ -643,3 +655,4 @@ opacity: 0; */
 
 
 }
+
