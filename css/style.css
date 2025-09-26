@@ -47,7 +47,7 @@ h6 {
 .inner-container {
     max-width: 1350px;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 2rem;
 }
 
 .flex-container {
@@ -593,7 +593,7 @@ opacity: 0; */
 }
 
 .scroll-to-top svg {
-    width: 2.5rem;
+    width: 2.25rem;
 }
 
 .visible {
