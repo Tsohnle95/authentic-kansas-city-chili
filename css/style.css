@@ -1,3 +1,65 @@
+
+
+/* --- START: FINAL COOKIE POPUP CSS --- */
+
+/* This is the default, hidden state */
+#cookiePopup {
+    visibility: hidden;
+    /* Hide it completely */
+    opacity: 0;
+    /* Make it fully transparent */
+    background-color: #ffffff;
+    position: fixed;
+    /* CRITICAL: Sticks to the browser window */
+    z-index: 999;
+    /* CRITICAL: Ensures it's on top of all other content */
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    /* A better way to center the popup */
+    width: 90%;
+    max-width: 550px;
+    /* Looks better on wide screens */
+    box-shadow: 0 4px 15px rgba(5, 0, 31, 0.2);
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6em;
+    padding: 1.5em;
+    border-radius: 8px;
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+}
+
+/* This is the visible state that the JavaScript adds */
+#cookiePopup.show {
+    visibility: visible;
+    /* Make it visible */
+    opacity: 1;
+    /* Make it fully opaque */
+}
+
+#cookiePopup p {
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+
+#cookiePopup button {
+    background-color: #6859fe;
+    border: none;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 0.8em 1.2em;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cookiePopup a {
+    color: #6859fe;
+}
+
+/* --- END: FINAL COOKIE POPUP CSS --- */
+
+
 .fade-in-element {
     opacity: 0;
 
@@ -150,6 +212,8 @@ header .flex-container {
     justify-content: space-between;
 }
 
+/* HERO */
+
 .hero {
     padding: 0 .9rem;
     margin: 0 auto;
@@ -157,6 +221,14 @@ header .flex-container {
 
 .hero>p:first-of-type {
     margin-bottom: 2rem;
+}
+
+.recipe h2 {
+    text-align: center;
+    font-size: clamp(2.074rem, 1.9454rem + 0.6431vw, 2.488rem);
+    font-size: clamp(1.728rem, 1.6205rem + 0.5375vw, 2.074rem);
+    font-size: clamp(1.728rem, 1.4919rem + 1.1806vw, 2.488rem);
+    /* font-weight: 500; */
 }
 
 /* TOGGLE NAVIGATION */
@@ -306,12 +378,12 @@ main section h2 {
 
 .recipe-prep>div>.flex-container {
     gap: 3rem;
-   
+
     flex-wrap: wrap;
 }
 
 .recipe-prep .share {
-     letter-spacing: .1875rem;
+    letter-spacing: .1875rem;
 }
 
 .recipe-prep>div span {
@@ -624,7 +696,7 @@ opacity: 0; */
         flex-direction: column;
         /* align-items: flex-end; */
         /* border-left: .25px solid gray; */
-        
+
     }
 
     .recipe-p {
@@ -649,10 +721,27 @@ opacity: 0; */
         border-left: .25px solid gray;
     } */
 
-    .recipe-para {
-
-    }
+    .recipe-para {}
 
 
 }
 
+/* ASIDE */
+.friend-link {
+    text-decoration: underline;
+    /* background-color: rgb(204, 204, 237); */
+    /* padding: 1rem; */
+    /* margin-top: 2rem; */
+    /* display: block; */
+    width: fit-content;
+    border-radius: 1rem;
+    text-decoration: underline;
+}
+
+.friend-link:hover {
+color: blue;
+}
+
+aside h2 {
+    font-size: clamp(1.728rem, 1.6205rem + 0.5375vw, 2.074rem);
+}
