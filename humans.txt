@@ -1,0 +1,61 @@
+
+                            
+/* TEAM */
+
+
+                            
+Site: https://authentickansascitychili.netlify.app/
+
+Site Contact: authentickansascitychilli@gmail.com
+                      
+Location: Edmonton, Alberta, Canada.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Privacy Generator: Iubenda
+
+Stock Photography: Unsplash | Pexels
+
+Graphics and ads: Canva | andrew.marketing/ad-preview-tool/
+
+AI and Detection: ChatGPT and Grammarly AI detector
+
+Productivity Software: MS Office 
+
+SEO Testing: 
+
+SEO Analytics: Google Analytics | Google Search Console
+
+Mail Handling: Mail Chimp
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2025/11/19
+
+                            
+Standards: HTML5, CSS3, JavaScript, Json
+
+                            
+Components: CSS Reset (MyerWeb), jQuery, Google Maps for Citations 
+
+                            
+Software: VS Code, Notepad
+
+
+/* Social Media */
+
+Facebook | Instagram
