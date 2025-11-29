@@ -400,6 +400,10 @@ main section h2 {
     gap: 2rem;
 }
 
+.recipes .recipe-prep {
+    margin-bottom: 4rem;
+}
+
 .cook-info {
     flex: 0 0 9rem;
 }
@@ -447,6 +451,10 @@ main section h2 {
     background-color: white;
     border-radius: 1.65rem;
     padding: 2rem;
+}
+
+.recipes .ingredients {
+    margin-bottom: 4rem;
 }
 
 .ingredients h3 {
@@ -862,6 +870,11 @@ aside p {
 
 .hot-pot-250 img {
 width: 350px;
+border-radius: 20px;
+}
+
+.recipes .hot-pot-250 {
+    /* margin: 4rem auto; */
 }
 
 .strawberry {
@@ -881,6 +894,10 @@ width: 350px;
 .favorite-park a {
     text-decoration:underline;
     color: blue;
+}
+
+.favorite-park {
+    margin-bottom: 4rem;
 }
 
 .news-article p {
@@ -925,3 +942,19 @@ width: 350px;
     color: blue;
     text-decoration: underline;
 }
+
+.new-exciting .flex-container {
+gap: 2rem;
+flex-wrap: wrap;
+}
+
+.new-exciting {
+    margin: 5rem auto;
+    
+}
+
+.new-exciting .flex-container img {
+    border-radius: 20px;
+}
+
+
