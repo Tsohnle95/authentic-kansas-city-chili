@@ -311,6 +311,7 @@ main section h2 {
     margin: 0 2rem 0;
     font-size: clamp(2.49rem, calc(2.249rem + 1.190vw), 2.99rem);
     line-height: 1.3;
+    margin: 1rem 0 2rem 0;
     /* padding-left: .5rem; */
 }
 
@@ -337,20 +338,6 @@ main section h2 {
     letter-spacing: 2.5008px;
     color: rgb(80, 77, 99);
     text-align: center;
-}
-
-/* recipe section */
-
-.call-to-action {
-    /* text-align: center; */
-}
-
-/* .recipe h3 {
-    font-size: 2.074rem;
-} */
-
-.recipe>div>div {
-    /* text-align: center; */
 }
 
 .call-to-action img {
@@ -408,7 +395,7 @@ main section h2 {
 .recipe-prep {
     margin: 2rem 0;
     padding: 1rem;
-     display: flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 }
@@ -460,7 +447,6 @@ main section h2 {
     background-color: white;
     border-radius: 1.65rem;
     padding: 2rem;
-    margin: 2rem 0 2rem 0;
 }
 
 .ingredients h3 {
@@ -487,12 +473,13 @@ main section h2 {
     font-size: 2rem;
 }
 
-.preparation ul {
-    /* list-style-type: disc; */
-}
+
 
 /* directions section */
-
+.directions {
+    max-width: 75ch;
+}
+ 
 .directions ol {
     display: flex;
     flex-direction: column;
@@ -520,6 +507,7 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
+
 
 .footer-para {
     margin: 2rem 0;
@@ -613,14 +601,48 @@ footer .line-design-maxwidth {
     margin-top: 2rem;
 }
 
+.chili-info .an-intro {
+    align-items:center;
+    gap: 4rem;
+    /* margin: 0 auto; */
+    flex-wrap: wrap;
+}
+
+.beloved-alternatives  .flex-container {
+    gap: 4rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.flex-container-preparation {
+    display: flex;
+    align-items:first baseline;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.chili-info h2 {}
+
+.beloved {
+max-width: 75ch;
+justify-content: space-between;
+}
+
+.chili-info p {
+    max-width: 75ch;
+}
+
 .chili-info img {
     border-radius: 1.65rem;
     margin: 2rem 0;
 }
 
-.chili-info>.inner-container h3 {
-    /* margin-bottom: 2rem; */
+.chili-image1 {
+    width: 350px;
 }
+
+
 
 .chili-info>.inner-container p {
     margin-bottom: 2rem;
@@ -657,17 +679,21 @@ footer .line-design-maxwidth {
 /* lower footer */
 
 .lower-footer {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     gap: 1rem;
     padding-top: 1rem;
     border-top: .25px solid rgb(235, 227, 227);
     margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
-.inner-container-ingredients {
-    width: 100%;
+.flex-container-ingredients {
+display: flex;
+gap: 5rem;
+justify-content: space-between;
+flex-wrap: wrap;
 }
-
 /* Scroll to top postion element */
 .scroll-to-top {
     position: fixed;
@@ -700,7 +726,7 @@ opacity: 0; */
     }
 
     .recipe-prep {
-        flex: 1 1 40%;
+        flex: 1 1 0;
         position: relative;
         padding-top: 4rem;
         /* padding-right: 2rem; */
@@ -709,6 +735,7 @@ opacity: 0; */
         display: flex;
         /* align-items: flex-end; */
         /* border-left: .25px solid gray; */
+        justify-content: center;
     }
 
     .recipe-p {
@@ -718,23 +745,6 @@ opacity: 0; */
     .recipe-prep .flex-container {
         gap: 1rem;
     }
-
-    /* .recipe-prep::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 25%;
-        height: 50%;
-        width: .25px;
-        background-color: gray;
-    } */
-
-    /* .design-line {
-        border-left: .25px solid gray;
-    } */
-
-    .recipe-para {}
-
 
 }
 
@@ -752,10 +762,6 @@ opacity: 0; */
 
 .friend-link:hover {
     color: blue;
-}
-
-aside h2 {
-    /* font-size: clamp(1.728rem, 1.6205rem + 0.5375vw, 2.074rem); */
 }
 
 aside p {
@@ -789,6 +795,10 @@ aside p {
     gap: 1rem;
 }
 
+.preparation2 {
+    max-width: 75ch;
+}
+
 .preparation p {
     margin: 1rem 0;
 }
@@ -808,9 +818,13 @@ aside p {
 .special-preparation p {
     margin: 1rem;
 }
+
 .substitutions {
     padding: 0 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
+
 
 .substitutions p {
     margin: 1rem 0;
@@ -818,11 +832,15 @@ aside p {
 
 .substitutions ul {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
 /* substitutions*/
+
+.substitutions ul li {
+    flex: 1 1 calc(50% - 1rem);
+}
 
 .substitutions ul li::before {
     content: "";
@@ -833,4 +851,77 @@ aside p {
     border-radius: 50%;
     margin-right: 1rem;
     vertical-align: middle;
+}
+
+
+/**************** HOT POT BANNER ******************/
+
+.hotpot {
+    margin: 0 auto;
+}
+
+.hot-pot-250 img {
+width: 350px;
+}
+
+.strawberry {
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.wilderness-park {
+    gap: 4rem;
+    align-items: center;
+}
+
+.wilderness-park img {
+
+}
+
+.favorite-park a {
+    text-decoration:underline;
+    color: blue;
+}
+
+.news-article p {
+ margin-bottom: 2rem;
+}
+.news-article {
+   max-width: 70ch;
+    margin-top: 2rem;
+}
+
+.news-article h2 {
+    font-size: clamp(2.49rem, calc(2.249rem + 1.190vw), 2.99rem);
+}
+
+.news-article a {
+ text-decoration:underline;
+    color: blue;
+}
+
+.truman-chili img {
+    width: 500px;
+}
+
+.flex-container-truman-chili {
+    display: flex;
+    gap: 4rem;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.columns {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.col {
+    flex: 1 1 45%;
+}
+
+.article-button {
+    color: blue;
+    text-decoration: underline;
 }
